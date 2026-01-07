@@ -1,0 +1,27 @@
+.nav-link {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.2s;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+  color: #bbbbbb;
+}
+.mat-icon {
+  color: white;
+}
+.nav-item {
+  margin: 16px;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+button{
+  margin: 0 auto;
+}

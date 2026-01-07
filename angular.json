@@ -22,10 +22,17 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/staticAssets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/material-theme.scss",
               "src/styles.css"
+
+            ],
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
           },
           "configurations": {
